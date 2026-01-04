@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="https://kit.fontawesome.com/b491b3531e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+
+    <input id="menu-toggle" type="checkbox" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="nav-bar">
+      <span class="brand-name">Bennie Dev</span>
+
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+
+      <!-- Share -->
+      <div class="share-menu">
+        <input type="checkbox" id="share-toggle">
+
+        <label for="share-toggle" class="share-icon">
+          <i class="fa-solid fa-share-nodes"></i>
+        </label>
+
+        <div class="share-options">
+          <a href="https://github.com/Bennie84"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/thatgirlbennie?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/benedicta-aigbomian-9b8a21375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a> 
+          <a href="https://www.instagram.com/_benniesly?igsh=bmxnZm9vdHlxNXBs&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@bennie_code?_r=1&_t=ZS-92lmT3nPDuf"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- About Section -->
+  <section class="container1">
+
+    <div class="about-text">
+      <h1 class="ripple-text">
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-computer"></i>
+        <span>Bennie Dev — The Code Girl</span>
+      </h1>
+
+      <p class="ripple-text">
+        Hello! I'm Bennie Dev, a passionate coder and tech enthusiast.
+        I love creating innovative solutions and exploring new technologies.
+        Welcome to my portfolio where I showcase my skills and projects.
+        Let's connect and build something amazing together!
+      </p>
+
+      <a href="https://docs.google.com/document/d/1gqnZ0rZdQoPFxorRdCLSiALxAI8xMD6a9M4W5Bkztzc/edit?usp=sharing">
+        <button id="resume">View my Resume'</button>
+      </a>
+    </div>
+
+    <div class="image">
+      <img src="./image/selfie2-img.jpeg" alt="Profile photo" class="image1">
+    </div>
+
+  </section>
+
+  <!-- Theme toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <i class="fa-solid fa-sun"></i>
+  </button>
+
+  <script src="index.js"></script>
+
+  <footer>
+    <hr>
+    <p>© 2024 Bennie Dev. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

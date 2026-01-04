@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://kit.fontawesome.com/b491b3531e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+
+    <input id="menu-toggle" type="checkbox" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="nav-bar">
+      <span class="brand-name">Bennie Dev</span>
+
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+
+      <!-- Share -->
+      <div class="share-menu">
+        <input type="checkbox" id="share-toggle">
+
+        <label for="share-toggle" class="share-icon">
+          <i class="fa-solid fa-share-nodes"></i>
+        </label>
+
+        <div class="share-options">
+          <a href="https://github.com/Bennie84"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/thatgirlbennie?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/benedicta-aigbomian-9b8a21375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/_benniesly?igsh=bmxnZm9vdHlxNXBs&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@bennie_code?_r=1&_t=ZS-92lmT3nPDuf"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+        
+    <section class="contact-section">
+      <div class="ripple-text">
+        <h2>Want to work with me? <br> <span class="connect">let`s Connect</span></h2>
+        <p class="para"> I am open to remote and onsite full-time, part-time, and 
+          <br>contract frontend web development jobs.</p>
+
+          <a href="https://docs.google.com/document/d/1gqnZ0rZdQoPFxorRdCLSiALxAI8xMD6a9M4W5Bkztzc/edit?usp=sharing">
+        <button id="resume">View My Resumee'</button>
+       </a>
+      </div>
+       
+      <form action="https://formspree.io/f/xjgkjgdl" method="POST" class="contact-form">
+        <label for ="name"></label>
+        <input type ="text" id="name" placeholder="Enter your name" required> <br>
+
+        <label for ="email"></label>
+        <input type ="email" id="email" placeholder="Enter your email" required> <br>
+
+        <label for="message"></label>
+        <textarea name="message" id="message" cols="33" rows="10" placeholder="Leave a message" required></textarea> <br>
+        <a href="#">
+         <button class="contact">Contact Me</button> 
+        </a>
+      </form>
+    </section>
+        
+       
+    
+  
+  
+  
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <i class="fa-solid fa-sun"></i>
+  </button>
+
+  <script src="index.js"></script>
+<footer> <hr>
+    <p>© 2024 Bennie Dev. All rights reserved.</p>
+    </footer>
+</body>
+</html>

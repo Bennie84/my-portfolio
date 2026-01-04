@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="project.css" />
+    <script
+      src="https://kit.fontawesome.com/b491b3531e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-bar">
+        <span class="brand-name">Bennie Dev</span>
+
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skill.html">Skills</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+
+        <!-- Share -->
+        <div class="share-menu">
+          <input type="checkbox" id="share-toggle" />
+
+          <label for="share-toggle" class="share-icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </label>
+
+          <div class="share-options">
+            <a href="https://github.com/Bennie84"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/thatgirlbennie?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/benedicta-aigbomian-9b8a21375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/_benniesly?igsh=bmxnZm9vdHlxNXBs&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@bennie_code?_r=1&_t=ZS-92lmT3nPDuf"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- PROJECT SECTION -->
+    <section class="project-section">
+      <div class="project-content">
+        <h2 class="ripple-text">
+          Welcome To My Projects, <br />
+          <span class="color">Fun + Functional Projects</span>
+        </h2>
+        <p class="para">
+          I am passionate about building modern, responsive web experiences.
+          My projects showcase my growing skills in design and
+          development, with a strong focus on detail and usability. Take a
+          look at some of the work I’ve created so far, and feel free to
+          explore my GitHub for even more projects that are actually useful.
+        </p>
+
+        <a href="https://github.com/Bennie84">
+          <button id="resume">View my Github</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <!-- PROJECT CARD -->
+        <article class="project-card" aria-label="Pricing table project">
+          <img src="./image/pricing-table.png"class="project-image" alt="Pricing table screenshot"/>
+          <div class="content">
+            <p>
+              A clean and responsive pricing table that clearly highlights
+              different pricing plans, features, and call-to-action buttons.
+            </p>
+
+            <span class="stack">HTML5 + CSS3</span>
+
+            <div class="project-links">
+              <div class="code-link">
+                  
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> <a class="btn" href="https://github.com/Bennie84/pricing_table.html.git">Code</a>
+                   
+                  <i class="fa-regular fa-eye" aria-hidden="true"></i><a class="btn" href="https://bennie84.github.io/pricing_table.html/"> Preview</a>
+              </div>
+            </div>
+          </div>
+        </article>
+         <!-- PROJECT CARD -->
+        <article class="project-card" aria-label="Air service website project">
+          <img src="./image/airline-img.jpg" class="project-image" alt="Air service website screenshot"/>
+          <div class="content">
+            <p>A simple, visually appealing website for an air service.</p>
+            <span class="stack">HTML5 + CSS3</span>
+
+            <div class="project-links">
+              <div class="code-link">
+                
+                  <i class="fa-brands fa-github" aria-hidden="true"></i><a class="btn" href="https://github.com/Bennie84/airline.html-css.git">Code</a>
+                
+                  <i class="fa-regular fa-eye" aria-hidden="true"></i><a class="btn" href="https://bennie84.github.io/airline.html-css/"> Preview</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- PROJECT CARD -->
+       <article class="project-card" aria-label="Air service website project">
+          <img src="./image/to-do-app.png" class="project-image" alt="Air service website screenshot"/>
+          <div class="content">
+            <p>A simple, visually appealing website for an air service.</p>
+            <span class="stack">HTML5 + CSS3</span>
+
+            <div class="project-links">
+              <div class="code-link">
+                
+                  <i class="fa-brands fa-github" aria-hidden="true"></i><a class="btn" href="https://github.com/Bennie84/To-do-app.git">Code</a>
+                
+                  <i class="fa-regular fa-eye" aria-hidden="true"></i><a class="btn" href="https://to-do-app-one-livid.vercel.app">Preview</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+       
+    </section>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <i class="fa-solid fa-sun"></i>
+    </button>
+
+    <script src="index.js"></script>
+    <footer>
+      <hr />
+      <p>© 2024 Bennie Dev. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
